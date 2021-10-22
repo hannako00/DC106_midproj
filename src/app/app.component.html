@@ -1,0 +1,28 @@
+<div class="container mt-5">
+  <div class="card">
+    <br>
+    <div class="head" style="text-align: center;">
+      <h2>Rate the Creations Pain Relief Rub product</h2>
+    </div>
+    <hr>
+    <div class="row mt-4">
+      <div class="col-md-6">
+        <img style="width: 400px; margin-left: 80px; margin-bottom: 25px;" src="../assets/creations.jpg" alt="">
+      </div>
+      <div class="col-md-5" style="font-size: 20px; text-align: justify;">
+
+        <h3>Creations Pain Relief Rub 50g</h3>
+        <br>
+        <p>Relaxing aroma and relief muscle pain, sprains, cold, dizziness,
+          itchiness and insect bites. For inhalation: relieve nasal congestion and dizziness, headache,
+          stress relief and contains natural aroma that relaxes your mind.</p>
+          <hr>
+        <ngb-rating [max]="5" [(rate)]="currentRate" style="color:orange; font-size: 40px;"></ngb-rating>
+
+        <div class="class" style="font-size: 20px; font-style:oblique;">
+            <pre>Rating: <b>{{currentRate}}</b> of 5</pre>
+          </div>
+      </div>
+    </div>
+  </div>
+</div>
